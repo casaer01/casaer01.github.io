@@ -1,1 +1,9 @@
-
+.High {
+  Background-color: red;
+}
+.Med {
+  background-color: blue;
+}
+.Low {
+  background-color: green;
+}
