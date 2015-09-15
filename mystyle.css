@@ -7,3 +7,6 @@
 .Low {
   background-color: green;
 }
+.Done {
+  text-decoration: line-through;
+}
