@@ -1,12 +1,15 @@
 .High {
   Background-color: red;
+  font-color: white;
 }
 .Med {
-  background-color: blue;
+  background-color: orange;
+  font-color: white:
 }
 .Low {
-  background-color: green;
+  background-color: gray;
 }
 .Done {
-  text-decoration: line-through;
+  background-color: black;
+  font-color: cyan;
 }
