@@ -6,15 +6,15 @@
   top: 0px;
   left: 0px;
 }
-#home {
+a#home {
   text-align: left;
   margin: 0;
 }
-#hobby {
+a#hobby {
   text-align: center;
   margin: 0;
 }
-#gallery {
+a#gallery {
   text-align: right;
   margin: 0;
 }
