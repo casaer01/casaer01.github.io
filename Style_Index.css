@@ -9,7 +9,7 @@
 #home {
   text-align: left;
   margin: 0;
-  top: 100px;
+  top: 200px;
 }
 #hobby {
   text-align: center;
@@ -18,5 +18,5 @@
 #gallery {
   text-align: right;
   margin: 0;
-  top: -100;
+  top: -200;
 }
