@@ -3,3 +3,12 @@ nav {
   width: 100%;
   background-color: cyan;
 }
+#home {
+  text-align: left;
+}
+#hobby {
+  text-align: center;
+}
+#gallery {
+  text-align: right;
+}
