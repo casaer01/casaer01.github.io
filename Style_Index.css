@@ -1,4 +1,5 @@
 #sticky {
+  float: left;
   position: fixed;
   width: 100%;
   background-color: cyan;
