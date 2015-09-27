@@ -29,14 +29,14 @@ body{
   left: 90%;
 }
 section#left {
-  margin: 70px;
+  margin: 70 0 0 0;
   float: left;
   width: 50%;
   background-color: orange;
   height: 60%;
 }
 section#right {
-  margin: 70px;
+  margin: 70 0 0 0;
   float: right;
   background-color:green;
   width: 50%;
