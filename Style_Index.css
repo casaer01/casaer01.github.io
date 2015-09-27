@@ -33,14 +33,14 @@ section#left {
   float: left;
   width: 50%;
   background-color: orange;
-  height: 60%;
+  height: 1000px;
 }
 section#right {
   margin: 70 0 0 0;
   float: right;
   background-color:green;
   width: 50%;
-  height: 60%;
+  height: 1000px;
 }
 footer {
   clear: both;
