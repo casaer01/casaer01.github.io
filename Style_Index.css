@@ -29,7 +29,6 @@ body{
   left: 90%;
 }
 section#left {
-  position: relative;
   top: 70px;
   float: left;
   width: 50%;
@@ -37,7 +36,6 @@ section#left {
   height: 700px;
 }
 section#right {
-  position: relative;
   top: 70px;
   float: right;
   background-color:green;
@@ -48,5 +46,4 @@ footer {
   clear: both;
   background-color: cyan;
   width: 100%;
-  top:870px;
 }
