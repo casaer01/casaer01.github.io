@@ -24,3 +24,17 @@
   margin: 0;
   left: 90%;
 }
+section#left {
+  margin: 70 0 0 0;
+  float: left;
+  width: 50%;
+  background-color: orange;
+  height: 1000px;
+}
+section#right {
+  margin: 70 0 0 0;
+  float: right;
+  background-color:green;
+  width: 50%;
+  height: 1000px;
+}
