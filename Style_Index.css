@@ -31,7 +31,9 @@ section#left {
   float: left;
   width: 50%;
   background-color: orange;
+  left: 0px;
 }
 section#right {
   float: right;
+  background-color:green;
 }
