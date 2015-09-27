@@ -44,3 +44,9 @@ section#right {
   width: 50%;
   height: 700px;
 }
+footer {
+  clear: both;
+  background-color: cyan;
+  width: 100%;
+  top:770px;
+}
