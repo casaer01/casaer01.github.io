@@ -32,11 +32,11 @@ section#left {
   float: left;
   width: 50%;
   background-color: orange;
-  height: 500px;
+  height: 900px;
 }
 section#right {
   float: right;
   background-color:green;
   width: 50%;
-  height: 500px;
+  height: 900px;
 }
