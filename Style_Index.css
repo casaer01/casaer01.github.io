@@ -6,6 +6,9 @@
   top: 0px;
   left: 0px;
 }
+body{
+  margin:50px;
+}
 #home {
   position: absolute;
   text-align: left;
