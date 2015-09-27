@@ -29,6 +29,7 @@ body{
   left: 90%;
 }
 section#left {
+  position: relative;
   top: 70px;
   float: left;
   width: 50%;
@@ -36,6 +37,7 @@ section#left {
   height: 900px;
 }
 section#right {
+  position: relative;
   top: 70px;
   float: right;
   background-color:green;
