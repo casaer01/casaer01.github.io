@@ -1,1 +1,8 @@
-
+#sticky {
+  position: fixed;
+  width: 100%;
+  background-color: cyan;
+  height: 70px;
+  top: 0px;
+  left: 0px;
+}
