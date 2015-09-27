@@ -29,12 +29,14 @@ body{
   left: 90%;
 }
 section#left {
+  top: 70px;
   float: left;
   width: 50%;
   background-color: orange;
   height: 900px;
 }
 section#right {
+  top: 70px;
   float: right;
   background-color:green;
   width: 50%;
