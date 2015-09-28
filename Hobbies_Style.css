@@ -45,3 +45,8 @@ section#right {
 #center {
   text-align: center;
 }
+footer {
+  clear: both;
+  background-color: cyan;
+  width: 100%;
+}
