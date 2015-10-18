@@ -1,11 +1,12 @@
 #list {
   background-color: cyan;
-  height:500px;
-  width:900px;
+  height:60%;
+  width: 80%;
 }
 html {
   background-color: blue;
 }
 #ButtonLayout {
   background-color:cyan;
+  width: 80%;
 }
