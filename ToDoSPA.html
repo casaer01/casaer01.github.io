@@ -18,8 +18,11 @@
   </section>
   <Script type="text/javascript">
     AddTask = function() {
-      var first;
-      first = document.querySelector('NewTask').value;
+      list = document.querySelector("#list")
+      first = document.querySelector('#NewTask').value;
+      second = document.querySelector("#Priority").value;
+      task = (first + second);
+      list.appendChild(task):
     }
   </Script>
 </html>
