@@ -10,3 +10,12 @@ html {
   background-color:cyan;
   width: 80%;
 }
+#high {
+  color:Red;
+}
+#med {
+  color:yellow;
+}
+#low {
+  color:Green;
+}
