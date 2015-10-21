@@ -10,12 +10,12 @@ html {
   background-color:cyan;
   width: 80%;
 }
-#high {
+.High {
   color:Red;
 }
-#med {
+.Med {
   color:yellow;
 }
-#low {
+.Low {
   color:Green;
 }
