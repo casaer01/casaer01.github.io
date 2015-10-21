@@ -4,7 +4,9 @@
   </head>
   <h1>Busy Busy</h1>
   <section id=list>
-    
+    <ul>
+      
+    </ul>
   </section>
   <section id=ButtonLayout>
     <p>Enter Task <input type=text value='Enter task here' id=NewTask size=50px>
@@ -25,9 +27,9 @@
       list = document.querySelector("#list");
       first = document.querySelector('#NewTask');
       second = document.querySelector("#Priority");
-      p.type = "checkbox";
+      list.type = "checkbox";
       list.appendChild(p);
-      document.body.section.appendChild(list);
+      document.body.section.ul.appendChild(list);
     }
   </Script>
 </html>
