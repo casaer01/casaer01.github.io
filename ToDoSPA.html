@@ -3,8 +3,8 @@
     <link rel="stylesheet" href="ToDoSPA.css" type="text/css">
   </head>
   <h1>Busy Busy</h1>
-  <section id=list>
-    <ul>
+  <section>
+    <ul id=list>
       
     </ul>
   </section>
@@ -24,13 +24,15 @@
       var first;
       var second;
       p = document.createElement("p");
+      li = document.createElement("li");
+      li.classList.add(second.value);
       ul = document.querySelector("ul");
       list = document.querySelector("#list");
       first = document.querySelector('#NewTask');
       second = document.querySelector("#Priority");
       list.type = "checkbox";
-      list.appendChild(p);
-      document.body.section.ul.appendChild(list);
+      list.appendChild(first);
+      ul.appendChild(list);
     }
   </Script>
 </html>
