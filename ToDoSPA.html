@@ -25,16 +25,25 @@
       var second;
       p = document.createElement("p");
       li = document.createElement("li");
-      li.classList.add(second.value);
       ul = document.querySelector("ul");
       list = document.querySelector("#list");
       first = document.querySelector('#NewTask');
       second = document.querySelector("#Priority");
-      list.type = "checkbox";
-      list.appendChild(first);
+      Text = document.createTextNode(first.value);
+      li.classList.add(second.value);
+      //list.type = "checkbox";
+      li.appendChild(Text);
       ul.appendChild(list);
     }
   </Script>
 </html>
 
 //Use this.parentNode.classList.add("done")
+//doneTask = function() {
+//  if(this.checked) {
+//      this.parentNode.classList.add("done")
+//                    }
+//
+//}
+//}
+//window.onload = function() { localSave(tasklistid)  }
