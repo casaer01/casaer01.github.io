@@ -30,8 +30,10 @@
       first = document.querySelector('#NewTask');
       second = document.querySelector("#Priority");
       Text = document.createTextNode(first.value);
+      Check = documentElement("INPUT");
+      Check.type = "checkbox";
       li.classList.add(second.value);
-      li.type = "checkbox";
+      li.appendChild(Check);
       li.appendChild(Text);
       list.appendChild(li);
     }
