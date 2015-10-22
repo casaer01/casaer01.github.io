@@ -4,7 +4,7 @@
   </head>
   <h1>Busy Busy</h1>
   <section>
-    <ul id=list>
+    <ul id=list doneTask();>
       
     </ul>
   </section>
@@ -37,6 +37,15 @@
       li.appendChild(Text);
       list.appendChild(li);
     }
+    doneTask = function() {
+      if(this.checked) {
+        this.parentNode.classList.add("done");
+      }
+      else {
+        this.parentNode.classList.remove("done");
+      }
+    }
+    src = "http://bnmnetp.github.io/CS130/listsave.js";
   </Script>
 </html>
 
