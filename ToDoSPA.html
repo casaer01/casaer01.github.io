@@ -4,7 +4,7 @@
   </head>
   <h1>Busy Busy</h1>
   <section>
-    <ul id=list "doneTask();">
+    <ul id=list windows.onload="doneTask();">
       
     </ul>
   </section>
@@ -38,6 +38,7 @@
       list.appendChild(li);
     }
     doneTask = function() {
+      src = "http://bnmnetp.github.io/CS130/listsave.js";
       if(this.checked) {
         this.parentNode.classList.add("done");
       }
@@ -49,7 +50,7 @@
       localSave(#list);
       restoreList(#list, doneTask);
     }
-    src = "http://bnmnetp.github.io/CS130/listsave.js";
+    
   </Script>
 </html>
 
