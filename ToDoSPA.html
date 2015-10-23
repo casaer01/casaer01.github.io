@@ -36,6 +36,9 @@
       li.appendChild(Check);
       li.appendChild(Text);
       list.appendChild(li);
+      
+      first.value = "";
+      localSave("list")
     }
     doneTask = function() {
       
@@ -45,6 +48,7 @@
       else {
         this.parentNode.classList.remove("done");
         }
+        localSave("#list")
       }
     //window.onload = function() { 
     //  localSave(#list);
