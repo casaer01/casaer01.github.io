@@ -4,7 +4,7 @@
   </head>
   <h1>Busy Busy</h1>
   <section>
-    <ul id=list doneTask();>
+    <ul id=list "doneTask();">
       
     </ul>
   </section>
@@ -57,4 +57,7 @@
 //
 //}
 //}
-//window.onload = function() { localSave(tasklistid)  }
+window.onload = function() { 
+  localSave(#list);
+  restoreList(#list, doneTask);
+}
