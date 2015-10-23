@@ -20,3 +20,6 @@ html {
 .Low {
   color:Green;
 }
+.done {
+  text-decoration: line-through;
+}
