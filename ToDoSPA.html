@@ -38,7 +38,7 @@
       list.appendChild(li);
     }
     doneTask = function() {
-      src = "http://bnmnetp.github.io/CS130/listsave.js";
+      
       if(this.checked) {
         this.parentNode.classList.add("done");
       }
@@ -46,7 +46,10 @@
         this.parentNode.classList.remove("done");
       }
     }
-
-    
+    window.onload = function() { 
+      localSave(#list);
+      restoreList(#list, doneTask);
+    }
+    src = "http://bnmnetp.github.io/CS130/listsave.js";
   </Script>
 </html>
